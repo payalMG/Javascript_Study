@@ -1,21 +1,25 @@
-// console.log("Hello World");
+let a= 85;
+let b= 85;
 
-// console.log("hii");
+// let res = a>b  && a!==b;
+// let res= a<b || a !=b;
+console.log(a<b  || a==b? "This is correct ": "This is incorrect");
 
-// console.log(12);
+// console.log(!false);
 
-// document.write("Hey")
+let c=2;
+let d=5;
+let res= c+d;
+console.log(res);
 
-// keywords- let,const,var.
+let number=4567
+let firstDigit = number /1000;
+console.log(Math.floor(firstDigit));
 
-var num=20;
-var num=85; //reassign the values and re-declare both are executed and this is globally scope.
-console.log(num);
-
-let a = 50;
-a =40; // this is block scope and reassign  the values  but can not re-declare the values.
-console.log(a);
-
-const b=40;
-// b=10; var can not reassign and can not re-declare the values and this is block scope.
-console.log(b);
+let x=5;
+if(x>10) {
+    console.log('x is greater than 10');
+}
+else{
+    console.log('x is less than or equal 10');
+}
